@@ -19,4 +19,4 @@ Get-ChildItem "$env:tmp/476F6F6420426F7921" -File | ForEach-Object {
 };
 
 Remove-Item -Path "$env:tmp/476F6F6420426F7921" -Force -Recurse;
-Exit powershell
+exit
